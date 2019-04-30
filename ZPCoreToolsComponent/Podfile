@@ -1,0 +1,22 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'ZPCoreToolsComponent' do
+#常用的
+     pod 'AFNetworking'              #网络框架
+     pod 'KINWebBrowser'             #webView
+     pod 'SDWebImage'                #图片加载
+     pod 'MJRefresh'                 #刷新控件
+     pod 'Masonry'                   #自动布局
+     pod 'IQKeyboardManager'         #防止键盘遮挡
+     pod 'HBDNavigationBar'          #nav的封装
+     pod 'MJExtension'               #字典转模型
+#用到时候请自己安装与封装
+     # pod 'TTTAttributedLabel'      #富文本lable
+     # pod 'RJBadgeKit'              #小红点提示
+     # pod 'WebViewJavascriptBridge' #js交互
+     # pod 'PGPickerView'            #选择控件
+     # pod 'XHLaunchAd'              #广告
+     # pod 'CocoaAsyncSocket'        #长连接API
+     # pod 'NJKWebViewProgress'      #网页打开进度条
+end
