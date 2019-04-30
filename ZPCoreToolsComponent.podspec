@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'ZPCoreToolsComponent'
-  s.version      = '1.0.1'
+  s.version      = '1.0.2'
   s.summary      = '项目的公共类库'
   s.description  = <<-DESC
 			项目的公共类库
